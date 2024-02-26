@@ -1,0 +1,54 @@
+$fontfamily: cursive;
+$b-color: rgb(228, 239, 99);
+$breakpoint-tablet: 768px;
+#Titles{
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+text-align: left;
+margin: 0 10%;
+}
+
+
+.update-status{
+  display: flex;
+  border-top: 1px   solid rgb(4, 4, 95);
+  border-bottom: 1px   solid rgb(4, 4, 95) ;
+ padding: 5px;
+background-color: antiquewhite;
+}
+.dates{
+  width: 20%;
+}
+
+.advertise{
+  width: 60%;
+}
+
+#relevance-div{
+text-align: right;
+width: 20%;
+}
+
+.second-nav{
+  display: flex;
+}
+.menus-in{
+  margin: 2rem;
+  button{
+    background: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet){
+.update-status{
+  display:block;
+  flex-wrap: wrap;
+
+  
+}
+.second-nav{
+  display:block;
+  flex-wrap: wrap;
+
+}
+}

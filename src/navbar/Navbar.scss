@@ -1,0 +1,56 @@
+$nav-width: 100%;
+$breakpoint-tablet: 768px;
+
+$none: none;
+#Navbar {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+
+  background-color: rgb(54, 77, 127);
+}
+.tablet-Nav {
+  display: none;
+}
+
+.navcontent {
+  display: flex;
+  justify-content: center;
+}
+.navcon {
+  margin: 20px;
+
+  button {
+    border: $none;
+    background: $none;
+  }
+}
+
+.input-bar {
+  border: 1px solid black;
+  width: fit-content;
+  background-color: white;
+
+  input {
+    border: $none;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .tablet-Nav {
+    display: block;
+  
+    width: 100%;
+  }
+  .navcontent {
+    display: $none;
+  }
+  .navcon{
+    display: flex;
+    margin: auto;
+  }
+  .bsrs{
+    text-align: right;
+    width: 50%;
+  }
+}

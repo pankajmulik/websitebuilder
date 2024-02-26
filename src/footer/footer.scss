@@ -1,0 +1,59 @@
+$fcolor:white;
+$breakpoint-tablet: 768px;
+
+
+#Footer{
+   
+    background-color: rgb(13, 12, 41);
+    display: flex;
+   
+    margin: auto;
+    padding: 3% 10%;
+}
+.contact-div{
+color: $fcolor;
+    
+text-align: left;
+ 
+}
+.btn-link{
+    margin: 2rem 0;
+}
+
+.categories{
+    width: 20%;
+   
+color: $fcolor;
+text-align: left;
+}
+
+ul{
+     list-style-type: none;
+}
+.country-div{
+width: 40%;
+justify-content: center;
+margin: auto;
+.select-div{
+    width: 10rem;
+    margin: auto;
+}
+ 
+}
+
+
+@media screen and (max-width: $breakpoint-tablet){
+
+  #Footer{
+  display: block;
+  flex-wrap: wrap;
+  margin:2rem ;
+  justify-content: center;
+}
+.contact-div{
+
+    width: 100%;
+    margin: 2%;
+}
+
+}

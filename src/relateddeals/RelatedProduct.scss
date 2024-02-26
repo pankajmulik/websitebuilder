@@ -1,0 +1,80 @@
+$breakpoint-tablet: 768px;
+
+#RelatedProducts {
+  display: flex;
+  margin: 5% 10%;
+}
+
+#SingleRProduct {
+  width: 30%;
+  height: 20rem;
+  background-color: white;
+  margin: auto;
+}
+.prod-img-div {
+  height: 10rem;
+
+  img {
+    width: 60%;
+    height: 8rem;
+    object-fit: fill;
+  }
+}
+
+.offer-div {
+  span {
+    background-color: rgb(180, 178, 178);
+    padding: 1%;
+    font-size: small;
+  }
+}
+.title-div {
+  font-weight: 1000;
+}
+
+.disc-div {
+  padding: 0 4rem;
+  text-align: left;
+  font-size: large;
+}
+
+.price-div {
+  span {
+    width: fit-content;
+    background-color: rgb(196, 195, 195);
+    margin: 1rem;
+    padding: 1%;
+  }
+  #p-price {
+    font-size: smaller;
+  }
+}
+
+.deal-btn-div {
+  width: 80%;
+  margin: auto;
+  button {
+    width: 70%;
+    font-size: large;
+    background-color: rgb(53, 113, 253);
+    border: none;
+    color: white;
+    padding: 2%;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint-tablet){
+  #RelatedProducts {
+  display: block;
+  flex-wrap: wrap;
+  margin:10%;
+  
+}
+#SingleRProduct {
+  width:100%;
+ height: fit-content;
+  text-align: center;
+}
+
+}

@@ -1,0 +1,40 @@
+$breakpoint-tablet: 768px;
+
+
+#SignUp {
+  width: 100%;
+}
+.signup-content {
+  display: flex;
+  margin: 0 10%;
+}
+.signup-text {
+  h1 {
+    color: rgb(20, 68, 123);
+    font-size: 45px;
+  }
+}
+.input-div {
+  width: 30%;
+  margin: auto;
+
+  input {
+    font-size: large;
+  }
+  button {
+    font-size: large;
+    color: white;
+    background-color: blue;
+    border: none;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet){
+
+  .signup-content {
+  display: block;
+  flex-wrap: wrap;
+  margin:2rem ;
+}
+
+}
