@@ -18,12 +18,21 @@ const Title = () => {
 
         <div className="dates">
           <p>
+            <span>
 
-            last updated -{current}/{month}/{year}
+              <i class="fa-solid fa-check"></i> 
+              
+</span> last updated -{current}/{month}/{year}
           </p>
         </div>
         <div className="advertise">
-          <p>Advertising Disclosure</p>
+
+         
+          <p>
+            <span>
+              <i class="fa-solid fa-info"></i>
+            </span>
+            Advertising Disclosure</p>
         </div>
 
         <div id="relevance-div">
